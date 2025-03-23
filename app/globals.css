@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --brand-gradient: 270deg, #fe92a2 0%, #ed3350 100%;
+}
+
+@theme inline {
+  --font-inter: var(--font-inter);
+  --font-beatrice: var(--font-beatrice);
+  --color-primary: #ed3350;
+  --shadow-3xl: 2px 2px 20px 0px #0000000a;
+  --shadow-4xl: 0px 0px 20px 0px #eb4c6080;
+  --color-headText: #333331;
+
+
+}
+
+body {
+  overflow-x: hidden;
+  --font-inter: var(--font-inter);
+}
+
+button {
+  cursor: pointer;
+}
+
+.para-text {
+  color: #757575;
+}
+
+.swiper-slide {
+  margin-bottom: 80px;
+}
+.swiper-pagination-bullet-active {
+  width: 35px !important;
+  height: 8px;
+  border-radius: 5px !important;
+  background: #699980 !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .swiper-slide {
+    margin-bottom: 50px;
+  }
+}
